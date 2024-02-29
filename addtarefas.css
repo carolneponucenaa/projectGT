@@ -1,8 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
     font-family: Nunito;
     background-image: url('https://mcdn.wallpapersafari.com/medium/78/89/ESVjk3.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
 }
 
 main{
@@ -15,14 +26,18 @@ main{
     height: 100px;
     display: flex;
     align-items: center;
-    background-color: whitesmoke;
+    justify-content: center;
+    background: none;
     opacity: 0.5;
     border-radius: 40px;
+    text-align: center;
 }
 .Title{
     display: flex;
     text-align: center;
     border-radius: 100px;
+    color: white;
+    justify-content: center;
 }
 .box {
     width: 250px;
@@ -30,8 +45,7 @@ main{
     padding: 10px;
     border-radius: 20px;
     margin-bottom: 20px;
-    
-
+    visibility: hidden;
 }
 .box-1{
     width: 250px;
@@ -81,11 +95,21 @@ li {
     padding: 10px;
     border-radius: 20px;
     margin-bottom: 20px;
+    visibility: hidden;
     
 }
-/* 
-.containerTarefas{
-    border: solid 5px white;
-    display: flex;
-    align-items: center;
-} */
+
+.button-tarefas{
+        width: 10px;
+        background: none;
+        border: none;
+        position: absolute;
+        margin-top: -400px;
+        margin-left: 500px;
+
+
+}
+
+.hidden{
+    display: hidden;
+}

@@ -2,6 +2,7 @@
 
 const botaoSub = document.getElementById('button')
 
+
 let usuarios = []
 
 async function obterUsuarios() {
@@ -38,7 +39,7 @@ async function enviarUsuarioParaBackend(usuarioLocal) {
 }
 
 function obterValoresDosCampos() {
-    const nome = document.getElementById('userName').value
+    const nome = document.getElementById('userName').value      
     const email = document.getElementById('userEmail').value
     const senha = document.getElementById('pass').value
 

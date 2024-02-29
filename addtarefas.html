@@ -20,17 +20,9 @@
     </div>
 </header>
 <main>
-    <div id="esquerdaBox" class="box-1">
-        <p>Insira ao lado os dados de suas tarefas:</p>
-           <p>EX:</p>
-           <p>Prova de Matemática</p>
-            <p>Assunto: Geometria</p>
-            <p>20/02/2024</p>
-            
-    </div>
     
     <div id="direitaBox">
-        <div class="box">
+        <div class="box" id="box">
             <h1>Adicione suas tarefas</h1>
             <label for="assuntoTarefa">Assunto:</label>
             <input type="text" id="assuntoTarefa" placeholder="Digite o assunto">
@@ -41,13 +33,20 @@
             <label for="descricaoTarefa">Descrição:</label>
             <input type="text" id="descricaoTarefa" placeholder="Digite uma nova tarefa">
 
-            <button onclick="addTask()">Adicionar Tarefa
+            <button id="addTarefa">Adicionar Tarefa
             </button>
+        </div>
+        <div id="button-addtarefa">
+            <div class="button-addtarefa">
+                <button class="button-tarefas" id="buttonn">
+                        <img src="./img/nova-tarefa (1).png" alt="">
+                </button>
+            </div>
         </div>
 
         
     </div>
-    <div class="box-3">
+    <div class="box-3" id="box-3">
         <p>Minhas tarefas:</p>
         <div id="listaTarefa"></div>
     </div>
