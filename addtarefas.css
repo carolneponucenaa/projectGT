@@ -13,7 +13,7 @@ body{
     width: 100vw;
     display: flex;
     flex-direction: column;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 main{
@@ -45,7 +45,7 @@ main{
     padding: 10px;
     border-radius: 20px;
     margin-bottom: 20px;
-    visibility: hidden;
+    
 }
 .box-1{
     width: 250px;
@@ -79,7 +79,6 @@ li {
     display: flex;
     justify-content: space-between;
     text-align: center;
-    
 }
 
 .teste{
@@ -95,8 +94,7 @@ li {
     padding: 10px;
     border-radius: 20px;
     margin-bottom: 20px;
-    visibility: hidden;
-    
+ 
 }
 
 .button-tarefas{
@@ -106,10 +104,7 @@ li {
         position: absolute;
         margin-top: -400px;
         margin-left: 500px;
-
-
 }
-
 .hidden{
-    display: hidden;
+    
 }

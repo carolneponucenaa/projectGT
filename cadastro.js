@@ -69,6 +69,9 @@ function obterValoresDosCampos() {
 
         }
     })
+
+
+    
 }
 
 botaoSub.addEventListener('click', obterValoresDosCampos)
